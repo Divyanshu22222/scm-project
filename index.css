@@ -1,195 +1,194 @@
 body {
-    background-color: white;
-  }
-  * {
-    margin: 0;
-  }
-  p {
-    color: #555555;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  h2,
-  h1,
-  h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #555555;
-    text-decoration: underline;
-    font-weight: bold;
-  }
-  nav {
-    background-color: teal;
-    padding: 10px;
-  }
-  .bmi-calc-form {
-    display: flex;
-    flex-direction: column;
-  }
-  .field {
-    display: flex;
-  }
-  .labels {
-    padding: 10px;
-  }
-  marquee {
-    padding-top: 5px;
-    behavior: "scroll";
-    direction: "right";
-    width: "130%";
-    height: "20px";
-    color: white;
-    background-color: black;
-    transition: 2s;
-  }
-  
-  marquee:hover {
-    color: Yellow;
-    font-size: 20;
-  }
-  
-  .header-button {
-    color: white;
-    border: none;
-    text-decoration: none;
-    font-size: large;
-    font-family: cursive;
-    padding: 10px;
-    transition: transform 0.2s;
-  }
-  
-  .header-button:hover {
-    color: white;
-    transform: translateY(-2px);
-  }
-  hr {
-    border: 7px solid black;
-    border-radius: 10px;
-  }
-  
-  .bmi-calculator {
-    background-color: #cdc9c3;
-    padding: 50px;
-    border-radius: 50px;
-    max-width: 20%;
-    margin: 20px;
-  }
-  .bmi-label {
-    font-weight: bolder;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .motivation {
-    color: #555555;
-  }
-  .motivation:hover {
-    font-size: 23px;
-    color: #555555;
-    width: 100%;
-  }
-  
-  hr {
-    background: black;
-  }
-  
-  .paramotivation {
-    border-radius: 75px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
-    background-color: #cdc9c3;
-  }
-  
-  .premium-membership:hover {
-    font-size: 20px;
-  }
-  
-  .premium-membership {
-    background-color: #cdc9c3;
-    width: 25%;
-    border-radius: 10px;
-    padding: 50px;
-    transition: 10s;
-  }
-  
-  .NeedMotivation:hover {
-    color: red;
-  }
-  .frame {
-    height: 50%;
-    width: 30%;
-  }
-  
-  .results {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
-  .contact-us-form {
-    background-color: #cdc9c3;
-    width: 50%;
-    height: 70%;
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    color: #eeeeee;
-  }
-  
-  .contact-us-labels {
-    color: #eeeeee;
-    padding: 10px;
-  }
-  .supplement-box {
-    background-color: #cdc9c3;
-    width: 200px;
-    margin: 50px;
-    border-radius: 10px;
-    padding: 20px;
-    transition: 2s ease-in-out;
-  }
-  .supplement-box:hover {
-    transform: scale(1.2, 1.2);
-  }
-  a {
-    text-decoration: none;
-  }
-  .protein-box {
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #cdc9c3;
-  }
-  .weightloss-box {
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #cdc9c3;
-  }
-  .card {
-    margin: 10px;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-  }
-  .about-me-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .button {
-    background-color: #cdc9c3;
-    padding: 10px;
-    width: 100px;
-    border: none;
-  }
-  
-  .slide {
-    display: none;
-  }
-  .slide.active {
-    display: block;
-  }
-  
+  background-color: white;
+}
+* {
+  margin: 0;
+}
+p {
+  color: #555555;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2,
+h1,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555555;
+  text-decoration: underline;
+  font-weight: bold;
+}
+nav {
+  background-color: teal;
+  padding: 10px;
+}
+.bmi-calc-form {
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  display: flex;
+}
+.labels {
+  padding: 10px;
+}
+marquee {
+  padding-top: 5px;
+  behavior: "scroll";
+  direction: "right";
+  width: "130%";
+  height: "20px";
+  color: white;
+  background-color: black;
+  transition: 2s;
+}
+
+marquee:hover {
+  color: Yellow;
+  font-size: 20;
+}
+
+.header-button {
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: large;
+  font-family: cursive;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.header-button:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+hr {
+  border: 7px solid black;
+  border-radius: 10px;
+}
+
+.bmi-calculator {
+  background-color: #cdc9c3;
+  padding: 50px;
+  border-radius: 50px;
+  max-width: 20%;
+  margin: 20px;
+}
+.bmi-label {
+  font-weight: bolder;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.motivation {
+  color: #555555;
+}
+.motivation:hover {
+  font-size: 23px;
+  color: #555555;
+  width: 100%;
+}
+
+hr {
+  background: black;
+}
+
+.paramotivation {
+  border-radius: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #cdc9c3;
+}
+
+.premium-membership:hover {
+  font-size: 20px;
+}
+
+.premium-membership {
+  background-color: #cdc9c3;
+  width: 25%;
+  border-radius: 10px;
+  padding: 50px;
+  transition: 10s;
+}
+
+.NeedMotivation:hover {
+  color: red;
+}
+.frame {
+  height: 50%;
+  width: 30%;
+}
+
+.results {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-us-form {
+  background-color: #cdc9c3;
+  width: 50%;
+  height: 70%;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #eeeeee;
+}
+
+.contact-us-labels {
+  color: #eeeeee;
+  padding: 10px;
+}
+.supplement-box {
+  background-color: #cdc9c3;
+  width: 200px;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 2s ease-in-out;
+}
+.supplement-box:hover {
+  transform: scale(1.2, 1.2);
+}
+a {
+  text-decoration: none;
+}
+.protein-box {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #cdc9c3;
+}
+.weightloss-box {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #cdc9c3;
+}
+.card {
+  margin: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.about-me-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.button {
+  background-color: #cdc9c3;
+  padding: 10px;
+  width: 100px;
+  border: none;
+}
+
+.slide {
+  display: none;
+}
+.slide.active {
+  display: block;
+}
